@@ -50,6 +50,10 @@
     background: #fff;
 } 
 
+.input-wrap:hover {
+    box-shadow: 0 5px 5px 0 rgba(0,0,0, 0.10);   
+} 
+
 .inner-wrap {
     width: 560px;
     height: 39px;
@@ -69,8 +73,7 @@
  
 .search-icon > span {
     width: 20px;
-    height: 26px;
-    size: 3px;  
+    height: 26px; 
     margin-top: 9px;
     margin-bottom: 9px;
     color: #9aa0a6; 
