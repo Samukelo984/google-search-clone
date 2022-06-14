@@ -1,5 +1,5 @@
  
-
+/* LOGO CODE */
 .logo {
     width: 1366px;
     max-height: 290px; 
@@ -15,7 +15,111 @@
     width: 272px;
     max-height: 92px;
     height: 100%;
-    margin-top: auto;
+    margin-top: 8px;  
+     margin-right: 10px;  
     position: relative;
     display: block; 
 }   
+
+/* SEARCH-WRAP CODE WILL GO HERE IF NEEDED */
+
+/* SEARCH INPUT */
+.search-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto; 
+    max-width: 584px;
+    height: 134px;
+    padding-top: 6px;
+    position: relative;
+    display: block; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.input-wrap {
+    width: auto;
+    max-width: 584px;
+    height: 44px;
+    margin-top: 20px; 
+    display: flex;
+    z-index: 3;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px; 
+    box-shadow: none;
+    background: #fff;
+} 
+
+.inner-wrap {
+    width: 560px;
+    height: 39px;
+    padding-left: 14px;
+    padding-top: 5px;
+    padding-right: 8px;
+    display: flex;
+    flex-grow: 1; 
+    flex-shrink: 1;
+}  
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 13px; 
+}
+ 
+.search-icon > span {
+    width: 20px;
+    height: 26px;
+    size: 3px;  
+    margin-top: 9px;
+    margin-bottom: 9px;
+    color: #9aa0a6; 
+    cursor: pointer; 
+} 
+
+.input {
+    display: flex; 
+}
+
+.input > input {
+    width: 487px;
+    height: 34px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%; 
+    font-size: 16px; 
+    border: none; 
+    outline: none; 
+}
+
+.microphone {
+    width: 24px;
+    height: 35px;  
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 44px;
+    /* flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;   
+}
+
+.microphone > span {
+    width: 100%; 
+    height: 24px; 
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    color: rgb(66, 133, 244); 
+} 
+
+ 
+
+
+
+
+
+/* LANGUAGES CODE */
