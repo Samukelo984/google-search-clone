@@ -179,5 +179,19 @@ center {
 .languages {
     width: 1349px;
     height: 28px; 
-    display: flex; 
 }
+
+.language-content {
+    width: 100%;
+    height: 100%;
+    margin-top: 25px; 
+    margin-bottom: 24px; 
+    display: flex; 
+    justify-content: center;   
+    font-size: small; 
+    color: #202124;
+} 
+
+.lan-item {
+    padding-right: 8px; 
+}  
