@@ -9,6 +9,7 @@
     align-items: center; 
     font-size: 1rem;
     color: #202124; 
+    cursor: pointer; 
 }
 
 .logo-wrap {
@@ -114,6 +115,7 @@
     align-items: center;
     vertical-align: middle;
     color: rgb(66, 133, 244); 
+    cursor: pointer; 
 } 
 
 /* SEARCH-TEXT */
@@ -195,3 +197,8 @@ center {
 .lan-item {
     padding-right: 8px; 
 }  
+
+.lan-item:hover {
+    text-decoration: underline; 
+    cursor: pointer; 
+} 

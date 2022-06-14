@@ -41,6 +41,11 @@
     flex-wrap: wrap; 
 }
 
+.ftr-text:hover {
+    text-decoration: underline; 
+    cursor: pointer; 
+}
+
 .more-info-center {
     width: 220px;  
     height: 17px;
@@ -57,6 +62,11 @@
     margin-right: 6px; 
 } 
 
+.more-info-center:hover {
+    text-decoration: underline; 
+    cursor: pointer; 
+} 
+
 .more-info-right {
     width: 392.688px;
     height: 47px;
@@ -66,4 +76,9 @@
 
 .right-ftr-text { 
     margin-right: 18px;  
+} 
+
+.right-ftr-text:hover {
+    text-decoration: underline; 
+    cursor: pointer; 
 } 

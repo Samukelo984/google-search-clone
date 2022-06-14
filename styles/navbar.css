@@ -114,3 +114,7 @@ body {
     color: black; 
     padding-left: 15px; 
 }  
+
+#profile-ui {
+    border-radius: 50%; 
+}  
