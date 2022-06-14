@@ -1,0 +1,21 @@
+ 
+
+.logo {
+    width: 1366px;
+    max-height: 290px; 
+    height: calc(100% - 560px);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-size: 1rem;
+    color: #202124; 
+}
+
+.logo-wrap {
+    width: 272px;
+    max-height: 92px;
+    height: 100%;
+    margin-top: auto;
+    position: relative;
+    display: block; 
+}  
